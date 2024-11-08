@@ -39,7 +39,7 @@ def process_faiss(q):
     model = hnswlib.Index(space='l2', dim=dim)
     model.load_index("model.bin")
 
-    eff = 32 if dim < 300 else 24
+    eff = 36 if dim < 300 else 150
 
     model.set_ef(eff)
     
