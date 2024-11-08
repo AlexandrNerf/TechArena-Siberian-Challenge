@@ -44,8 +44,8 @@ def process_fvecs(input_file):
 
     # Выберем гиперпараметры
 
-    m = 42 if dim < 300 else 20
-    ef_const = 350 if dim < 300 else 250
+    m = 42 if dim < 300 else 24
+    ef_const = 450 if dim < 300 else 300
 
     model = hnswlib.Index(space='l2', dim=dim)
     model.init_index(max_elements=n, ef_construction=ef_const, M=m)
