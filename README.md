@@ -1,3 +1,3 @@
-# TechArena-Siberian-Challenge
+# TechArena: Перебор Join-ов
 
 Джоины никто не решил! (А мог бы)
